@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "ngmd-websocket"
+  },
+  "targets": {
+    "ngmd-translate": {
+      "hosting": {
+        "ngmd-websocket": [
+          "ngmd-websocket"
+        ],
+        "ngmd-websocket-en": [
+          "ngmd-websocket-en"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": false,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "es2020",
+    "paths": {
+      "@ngmd/websocket": ["./projects/lib/src/public-api.ts"],
+      "@ngmd/websocket/*": ["./projects/lib/*"],
+      "@ng-doc/generated": ["./projects/docs/ng-doc/docs/index.ts"],
+      "@ng-doc/generated/*": ["./projects/docs/ng-doc/docs/*"],
+      "@docs-core/*": ["./projects/docs/src/app/core/*"],
+      "@ng-doc-en/generated": ["./projects/docs-en/ng-doc/docs-en/index.ts"],
+      "@ng-doc-en/generated/*": ["./projects/docs-en/ng-doc/docs-en/*"],
+      "@docs-en-core/*": ["./projects/docs-en/src/app/core/*"]
+    },
+    "lib": ["es2020", "dom"],
+    "useDefineForClassFields": false
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

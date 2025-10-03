@@ -1,0 +1,31 @@
+{
+  "name": "@ngmd/websocket",
+  "version": "0.0.2",
+  "license": "MIT",
+  "author": {
+    "email": "sxemax1@gmail.com",
+    "name": "Maxim Demidov"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "contributors": [],
+  "keywords": [
+    "angular",
+    "typescript",
+    "websocket",
+    "signalr",
+    "rxjs",
+    "@ngmd"
+  ],
+  "peerDependencies": {
+    "@microsoft/signalr": "^6.0.4",
+    "@angular/cdk": ">=20.0.0",
+    "@angular/common": ">=20.0.0",
+    "@angular/core": ">=20.0.0",
+    "rxjs": "~7.8.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
