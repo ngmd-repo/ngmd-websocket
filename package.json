@@ -1,5 +1,5 @@
 {
-  "name": "@ng/websocket",
+  "name": "ngmd-websocket",
   "version": "0.0.0",
   "scripts": {
     "-------APP-------": "",
