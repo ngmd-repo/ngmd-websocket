@@ -1,5 +1,5 @@
 {
-  "name": "@ng/websocket",
+  "name": "ngmd-websocket",
   "version": "0.0.0",
   "scripts": {
     "-------APP-------": "",
@@ -8,6 +8,7 @@
     "build": "ng build",
     "test": "ng test",
     "watch": "ng build --watch --configuration development",
+    "prepare": "husky",
     "-------LIBRARY-------": "",
     "lib:dev": "ng build lib --watch",
     "lib:build": "ng build lib",
@@ -22,8 +23,7 @@
     "firebase:preview": "firebase emulators:start",
     "firebase:deploy": "npm run docs:build && firebase deploy --only hosting:docs",
     "firebase:en:deploy": "npm run docs:en:build && firebase deploy --only hosting:docs-en",
-    "firebase:deploy:all": "npm run docs:build && npm run docs:en:build && firebase deploy",
-    "prepare": "husky"
+    "firebase:deploy:all": "npm run docs:build && npm run docs:en:build && firebase deploy"
   },
   "private": true,
   "dependencies": {
@@ -51,7 +51,7 @@
     "@angular/build": "^20.2.2",
     "@angular/cli": "~20.2.2",
     "@angular/compiler-cli": "^20.2.4",
-    "@ngmd/git-flow": "~0.0.2",
+    "@ngmd/git-flow": "~0.0.3",
     "@ngmd/linter": "~0.0.4",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^22.12.0",
